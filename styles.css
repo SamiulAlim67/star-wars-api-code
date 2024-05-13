@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Card Styles */
+.card {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #161515;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #171515;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Container Styles */
+.container {
+    padding-top: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        height: auto;
+    }
+}
